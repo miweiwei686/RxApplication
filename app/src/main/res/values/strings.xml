@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RxApplication</string>
+    <string name="operation_consume">Rxjava之耗时操作使用实例</string>
 </resources>
