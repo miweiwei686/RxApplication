@@ -5,12 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".activity.SearchActivity">
 
-    <Button
-        android:text="SearchView Test"
-        android:id="@+id/btn_search"
+
+    <EditText
+        android:id="@+id/edit_search"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
 </LinearLayout>
